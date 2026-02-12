@@ -3,7 +3,7 @@
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 **Smart Web Scraper** is a web-based application designed to automatically scrape website content, monitor changes over time, and export structured data for further analysis.  
 The system supports both **static and dynamic websites**, stores data in a relational database, and provides a **modern user interface** for real-time usability.
@@ -12,7 +12,7 @@ This project was developed as a **college mini project** with emphasis on real-w
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 Manually monitoring websites for content updates is:
 - Time-consuming  
@@ -24,7 +24,7 @@ There is a need for an **automated system** that can extract, track, and export 
 
 ---
 
-## ✅ Solution Approach
+##  Solution Approach
 
 The Smart Web Scraper automates this process by:
 - Crawling websites up to a defined depth
@@ -35,23 +35,23 @@ The Smart Web Scraper automates this process by:
 
 ---
 
-## 🧠 Key Features
+##  Key Features
 
-- 🌐 Scrape any public website
-- 🔁 Depth-limited crawling to avoid infinite loops
-- ⚙️ Hybrid scraping:
+-  Scrape any public website
+-  Depth-limited crawling to avoid infinite loops
+-  Hybrid scraping:
   - Requests + BeautifulSoup for static pages
   - Selenium WebDriver for dynamic pages
-- 📄 Section-wise content extraction
-- 🔍 Change detection using SHA-256 hashing
-- 🗄️ MySQL database storage
-- 🎨 Modern Bootstrap-based UI
-- 📤 Export data as CSV and JSON
-- 🧪 Tested on real-world websites (Wikipedia, policy portals)
+-  Section-wise content extraction
+-  Change detection using SHA-256 hashing
+-  MySQL database storage
+-  Modern Bootstrap-based UI
+-  Export data as CSV and JSON
+-  Tested on real-world websites (Wikipedia, policy portals)
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 ### Backend
 - Python
@@ -75,7 +75,7 @@ The Smart Web Scraper automates this process by:
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 User Interface (Bootstrap)  
 ↓  
@@ -93,7 +93,7 @@ Export Module (CSV / JSON)
 
 ---
 
-## 🔄 Project Phases
+##  Project Phases
 
 ### Phase 1: Requirement Analysis & Design
 - Identified real-world scraping use cases
@@ -135,7 +135,7 @@ Export Module (CSV / JSON)
 
 ---
 
-## 🌍 Real-World Testing
+##  Real-World Testing
 
 ### Wikipedia
 - Successfully scraped large articles
@@ -155,7 +155,7 @@ https://en.wikipedia.org/wiki/Web_scraping
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 - Does not bypass anti-scraping mechanisms
 - Infinite scrolling pages have limited support
@@ -166,7 +166,7 @@ These limitations are intentionally respected for ethical and academic reasons.
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 - Scheduled scraping with background tasks
 - Notification alerts for content changes
@@ -176,7 +176,7 @@ These limitations are intentionally respected for ethical and academic reasons.
 
 ---
 
-## ▶️ How to Run the Project
+##  How to Run the Project
 
 1. Clone the repository
 2. Install dependencies
